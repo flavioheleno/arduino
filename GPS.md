@@ -8,4 +8,11 @@ That doesn't quite work right away, so I've replaced the `SoftwareSerial` with `
 
 Code sample available at [examples/GPS.ino](examples/GPS.ino).
 
-Note that the GPS is hooked to Arduino's 3.3 and GND (power).
+## Connections
+
+Shield | Arduino
+-------|--------
+VCC    | 3.3V
+GND    | GND
+TX     | Pin 15 (RX3)
+RX     | Pin 14 (TX3)
