@@ -1,6 +1,6 @@
 # GSM
 
-I have a SIM900 GSM Shield.
+I have a SIM900 GSM Shield and I am using [TinyGSM](https://github.com/vshymanskyy/TinyGSM).
 
 All I had to do to make it work was to change the GPRS jumper from SWSerial to Xduino (hardware).
 
