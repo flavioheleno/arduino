@@ -16,3 +16,21 @@ VCC    | 5V
 GND    | GND
 D0     | Pin 14 (TX3)
 D1     | Pin 15 (RX3)
+
+## AT Commands
+
+Below is a list of useful AT Commands.
+
+Command         | Description
+----------------|------------
+ATE1            | Enables command echo.
+AT+CBAND?       | Queries the current band configuration.
+AT+CBAND=?      | List all available band options.
+AT+CBAND="X"    | Sets the band configuration.
+AT+COPS?        | Queries the current operator.
+AT+COPS=?       | List all available operators.
+AT+COPS=0       | Sets the current operator to automatic.
+AT+COPS=1,0,"X" | Sets the current operator manually.
+AT+CSQ          | Queries the current signal strength (0-31).
+AT+CREG?        | Queries the current registration status.
+AT+CENG=1       | Enables engineering mode.
