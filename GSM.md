@@ -34,3 +34,9 @@ AT+COPS=1,0,"X" | Sets the current operator manually.
 AT+CSQ          | Queries the current signal strength (0-31).
 AT+CREG?        | Queries the current registration status.
 AT+CENG=1       | Enables engineering mode.
+AT+CMEE=2       | Increases error verbosity.
+AT+CPIN?        | Queries the simcard state.
+AT+CFUN=0       | Sets chip functionality to minimal.
+AT+CFUN=1       | Sets chip functionality to maximum.
+AT+CFUN=1,1     | Sets chip functionality to maximum and restarts it.
+A/              | Repeats the last command.
